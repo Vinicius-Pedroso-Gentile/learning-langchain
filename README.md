@@ -50,7 +50,11 @@ src/
    ```
 
 3. **Baixe os modelos do Ollama** usados nos exemplos:**
-   Obs: Eu optei em utilizar modelos locais por conta que não quero ter custo. Porém caso você queria utilizar outro modelo que não seja local eu recomendo o da Groq, pois não tem custo alto (https://groq.com/)
+   ```
+   Obs:
+   Eu optei em utilizar modelos locais por conta que não quero ter custo. Porém caso você queria utilizar outro modelo que não seja local eu recomendo o da Groq, pois não tem custo alto (https://groq.com/)
+   ```
+   
    ```bash
    ollama pull phi3
    ollama pull qwen3:1.7b
